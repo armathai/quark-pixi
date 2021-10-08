@@ -50,11 +50,9 @@
         "ts-jest": "^27.0.5",
         "typescript": "^4.4.2"
     },
-    "peerDependencies": {
-        "pixi.js": "^6.1.3"
-    },
     "dependencies": {
         "@armathai/quark-core": "^0.0.0-alpha.1",
+        "pixi.js": "^6.1.3",
         "stats.js": "^0.17.0"
     }
 }

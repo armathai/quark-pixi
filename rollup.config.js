@@ -9,7 +9,7 @@ export default [
 
         // Specify here external modules which you don't want to include in your bundle (for instance: 'lodash', 'moment' etc.)
         // https://rollupjs.org/guide/en#external-e-external
-        external: ['pixi.js', '@pixi/constants', '@pixi/core', '@pixi/display', '@pixi/sprite', '@pixi/ticker'],
+        external: ['pixi.js', '@pixi/core', '@pixi/display', '@pixi/sprite', '@pixi/ticker'],
 
         plugins: [
             nodeResolve(),
