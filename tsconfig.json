@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "declaration": false,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "moduleResolution": "Node"
+    },
+    "include": ["src/**/*.ts"]
+}
