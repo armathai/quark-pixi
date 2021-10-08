@@ -16,6 +16,10 @@ export class EmitterContainer extends Container implements EmitterRenderer {
         this._emitters.forEach((e) => (e.renderer = this));
     }
 
+    public get emitters(): Emitter[] {
+        return this._emitters;
+    }
+
     public prewarm(time: number): void {
         this._emitters.forEach((e) => e.prewarm(time, Ticker.shared.deltaMS / 1000));
     }
