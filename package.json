@@ -1,6 +1,6 @@
 {
     "name": "@armathai/quark-pixi",
-    "version": "0.0.0-alpha.0",
+    "version": "0.0.0-alpha.1",
     "description": "core functionality for quark system",
     "main": "dist/quark-pixi.cjs.js",
     "module": "dist/quark-pixi.esm.js",
